@@ -1,0 +1,64 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  background-color: blueviolet;
+  margin: 3px;
+  width: 200px;
+  height: 300px;
+}
+
+.image-container {
+  background-color: chocolate;
+  min-width: 10px;
+  min-height: 220px;
+  display: flex;
+}
+
+.color-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-color {
+  /* background-color: rgb(81, 52, 243); */
+  min-width: 20px;
+  min-height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 2px solid black;
+  align-items: center;
+}
+
+.color-red {
+  background-color: red;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-green {
+  background-color: green;
+}
