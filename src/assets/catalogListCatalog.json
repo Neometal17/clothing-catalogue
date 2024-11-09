@@ -1,0 +1,23 @@
+[
+    {
+        "title":"Conjuntos",
+        "colors":"Rojo,verde,azul",
+        "image":"imageCatalog/gray_set.png",
+        "price": 15,
+        "moneda": "$"
+    },
+    {
+        "title":"Conjuntos",
+        "colors":"Rojo,verde,azul",
+        "image":"imageCatalog/mustard_set.png",
+        "price": 15,
+        "moneda": "$"
+    },
+    {
+        "title":"Conjuntos",
+        "colors":"Rojo,verde,azul",
+        "image":"imageCatalog/white_set.png",
+        "price": 15,
+        "moneda": "$"
+    }
+]
