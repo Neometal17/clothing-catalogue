@@ -10,7 +10,7 @@ function App() {
       <div className='image-container'><img className='image-container' src={catalog.image}/></div>
       <div>
         <div>
-          <label><b>{catalog.title}</b></label>
+          <label style={{fontSize: 20}}><b>{catalog.title}</b></label>
         </div>
         {/* <div className='color-container'>
           <div className='main-color color-red'></div>
@@ -18,7 +18,7 @@ function App() {
           <div className='main-color color-green'></div>
         </div> */}
         <div>
-          <label>{catalog.price} {catalog.moneda}</label>
+          <label><b>Precio:</b> {catalog.price} {catalog.moneda}</label>
         </div>
       </div>
     </div>
